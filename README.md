@@ -56,7 +56,11 @@ git push --set-upstream origin feature/[Your branch name]
 [Google Container Registry] (https://console.cloud.google.com/gcr/images/non-prod-pdz/EU/frontend-propitix?project=non-prod-pdz&authuser=1&gcrImageListsize=30) (Depending on the environment. Either non-prod or prod)
 
 ## pulling the image
-```
+
+
+
+
+Checking jenkins```
 docker pull eu.gcr.io/$environment/frontend-propitix:$tag-version
 ```
 
